@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
+ * main - Entry point
  *
- * main is the main function
+ * Description: using sizeof to print the size of varios types.
  *
  * Return: always 0 (success)
- *
  */
 
 int main(void)
