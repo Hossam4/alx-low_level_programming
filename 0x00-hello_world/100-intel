@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -masm=intel $CSFILE -o 'echo $CSFILE | cut -d .fl' .s
+gcc -S -masm=intel $CSFILE
