@@ -1,8 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Description: positive or negative
+ *
+ * Return: 0 (success)
+ */
 
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
