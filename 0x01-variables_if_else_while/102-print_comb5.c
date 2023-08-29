@@ -13,9 +13,10 @@ int main(void)
 	int i;
 	int j;
 
-	for (i = 0 ; i <= 98 ; i++)
+	for i(i = 0 ; i <= 99 ; i++)
 	{
-		for (j = i; j <= 99 ; j++)
+		j = i;
+		for (j = 0; j <= 99 ; j++)
 		{
 			if (j != i)
 			{
