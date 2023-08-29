@@ -3,9 +3,10 @@
 /**
  * main - Entry point
  *
- * description : print combination of two digits
+ * Description: print combination of all possible
+ * different two digits
  *
- * return : 0 success
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -17,10 +18,10 @@ int main(void)
 	{
 		for (j = 0; j < 10 ; j++)
 		{
-			if (i != j && j < i)
+			if (i != j && i < j)
 			{
-				putchar(j + 48);
 				putchar(i + 48);
+				putchar(j + 48);
 				if (i + j != 17)
 				{
 					putchar(',');
