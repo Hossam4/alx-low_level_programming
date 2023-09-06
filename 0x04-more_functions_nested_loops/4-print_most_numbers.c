@@ -3,7 +3,7 @@
 /**
  * print_most_numbers - function that prints the numbers
  *
- * Return: Always 
+ * Return: Always
  * (0)
  */
 
