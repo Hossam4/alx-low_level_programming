@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
 			cents = cents - 2;
 		else if (cents >= 1)
 			cents = cents - 1;
-		coins++
+		coins++;
 	}
 	printf("%d\n", coins);
 	return (0);
